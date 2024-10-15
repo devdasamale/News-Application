@@ -59,9 +59,6 @@ function onNavItemClick(id) {
   curSelectedNav?.classList.remove("active");
   curSelectedNav = navItem;
   curSelectedNav.classList.add("active");
-
-  // Close the navigation menu after clicking an item
-  toggleNav();
 }
 
 const searchButton = document.getElementById("search-button");
